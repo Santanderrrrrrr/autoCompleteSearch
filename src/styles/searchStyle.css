@@ -1,0 +1,65 @@
+.searchBar{
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+
+}
+
+.inputNHit{
+
+}
+
+.inputField, .hit{
+    
+    height: 50px;
+    border: none;
+}
+
+.inputField{
+
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 5px;
+    /* margin-left:20px; */
+    background-color: aliceblue;
+    font-weight: 700;
+}
+
+.hit{
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(31, 122, 77);
+}
+
+
+.Suggestion{
+    width: 265.47px;
+    border: 2px solid rgb(196, 196, 196);
+    border-bottom: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding-left:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.Suggestion:last-child{
+    border-bottom: 2px solid rgb(196,196,196);
+}
+.Suggestion:first-of-type{
+    border-top: none;
+}
+
+.Suggestion:hover{
+    background-color: rgb(235, 250, 255);
+}
